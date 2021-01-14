@@ -6,7 +6,7 @@ class Link {
 		
 		this.spritesheet = ASSET_MANAGER.getAsset("./Sprites/LinkWalk.png");
 		
-		this.Animator = new Animator(this.spritesheet, 50, 50, 50, 75, 6, .33, 16, true, true, null);
+		this.Animator = new Animator(this.spritesheet, 50, 50, 50, 75, 6, .33, 16, true, true);
 	};
 	
 	loadAnimations() {
