@@ -1,11 +1,12 @@
 class Link {
 	constructor(game, x, y){
-		Object.assign(this, {game, x, y});
+		this.game = game;
+		this.x = x;
+		this.y = y;
 		
 		this.spritesheet = ASSET_MANAGER.getAsset("./Sprites/LinkWalk.png");
 		
-		this.animations = [];
-		this.loadAnimations();
+		this.animator = new animator(this.spritesheet, 50, 50, 50, 75, 6, .33, 16, true, true, null);
 	};
 	
 	loadAnimations() {
