@@ -7,7 +7,7 @@ class Link {
 		this.spritesheet = ASSET_MANAGER.getAsset("./Sprites/LinkWalk.png");
 		
 		this.animations = [];
-		this.animations.push(new Animator(this.spritesheet, 50, 50, 50, 75, 6, .33, 16, true, true));
+		this.animations.push(new Animator(this.spritesheet, 2, 32, 30, 30, 6, .18, 0, false, true));
 	};
 	
 	update(){
@@ -15,6 +15,7 @@ class Link {
 	};
 	
 	draw(ctx) {
-		this.animations[0].drawFrame(this.game.clockTick, ctx, this.x, this.y, 2)
+		//ctx.drawImage(this.spritesheet,0,0,204*2,115*2);
+		this.animations[0].drawFrame(this.game.clockTick, ctx, this.x, this.y, 3.5)
 	};
 };
