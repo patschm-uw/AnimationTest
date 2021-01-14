@@ -9,6 +9,6 @@ ASSET_MANAGER.downloadAll(function () {
 	var ctx = canvas.getContext('2d');
 
 	gameEngine.init(ctx);
-	gameEngine.addEntity(new character(gameEngine, 20, 20))
+	gameEngine.addEntity(new Link(gameEngine, 20, 20))
 	gameEngine.start();
 });
