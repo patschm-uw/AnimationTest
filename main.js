@@ -11,6 +11,6 @@ ASSET_MANAGER.downloadAll(function () {
 	
 
 	gameEngine.init(ctx);
-
+	gameEngine.addEntity(new character(gameEngine, 20, 20))
 	gameEngine.start();
 });
