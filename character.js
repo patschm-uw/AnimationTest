@@ -2,7 +2,7 @@ class Link {
 	constructor(game, x, y){
 		Object.assign(this, {game, x, y});
 		
-		this.spritesheet = ASSET_MANAGER.getAsset("./Sprites/Link walking by Vaati.png");
+		this.spritesheet = ASSET_MANAGER.getAsset("./Sprites/LinkWalk.png");
 	};
 	
 	update(){
@@ -10,6 +10,6 @@ class Link {
 	};
 	
 	draw(ctx){
-		ctx.drawImage(this.spritesheet, 0, 0);
+		ctx.drawImage(this.spritesheet, 50, 50);
 	}
 };
