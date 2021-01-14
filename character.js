@@ -18,5 +18,5 @@ class Link {
 	
 	draw(ctx){
 		ctx.drawImage(this.spritesheet, 50, 50);
-	}
+	};
 };
