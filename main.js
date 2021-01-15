@@ -2,7 +2,7 @@ var gameEngine = new GameEngine();
 
 var ASSET_MANAGER = new AssetManager();
 
-ASSET_MANAGER.queueDownload("./Sprites/Minish.png");
+//ASSET_MANAGER.queueDownload("./Sprites/Minish.png");
 ASSET_MANAGER.queueDownload("./Sprites/Arachnus.png");
 
 ASSET_MANAGER.downloadAll(function () {
