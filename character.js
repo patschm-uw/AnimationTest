@@ -54,7 +54,7 @@ class Arachnus {
 		
 		this.animations = [];
 		this.animations.push(new Animator(this.spritesheet, 1, 670, 88, 78, 25, .1, 2, false, true));
-		//                                                x, y, width, height, frames, speed, spacing, flip, loop
+		//                                               x, y, width, height, frames, speed, spacing, flip, loop
 	};
 	
 	update() {
