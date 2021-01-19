@@ -1,4 +1,4 @@
-class Link {
+/*class Link {
 	constructor(game, x, y){
 		this.game = game;
 		this.x = x;
@@ -42,7 +42,7 @@ class Ezlo {
 		//ctx.drawImage(this.spritesheet, 0, 0, 100, 100);
 		this.animations[0].drawFrame(this.game.clockTick, ctx, this.x, this.y, 3.5);
 	};
-};
+}; */
 
 class Arachnus {
 	constructor(game,x,y) {
